@@ -1,201 +1,346 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CeloBank</title>
     <!-- Favicon -->
-    <link
-      rel="apple-touch-icon"
-      sizes="57x57"
-      href="./assets/favicon/apple-icon-57x57.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="60x60"
-      href="./assets/favicon/apple-icon-60x60.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="72x72"
-      href="./assets/favicon/apple-icon-72x72.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="76x76"
-      href="./assets/favicon/apple-icon-76x76.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="114x114"
-      href="./assets/favicon/apple-icon-114x114.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="120x120"
-      href="./assets/favicon/apple-icon-120x120.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="144x144"
-      href="./assets/favicon/apple-icon-144x144.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="152x152"
-      href="./assets/favicon/apple-icon-152x152.png"
-    />
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./assets/favicon/apple-icon-180x180.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="192x192"
-      href="./assets/favicon/android-icon-192x192.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./assets/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="96x96"
-      href="./assets/favicon/favicon-96x96.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./assets/favicon/favicon-16x16.png"
-    />
+    <link rel="apple-touch-icon" sizes="57x57" href="./assets/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="./assets/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="./assets/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="./assets/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="./assets/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="./assets/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./assets/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
     <link rel="manifest" href="./assets/favicon/manifest.json" />
     <meta name="msapplication-TileColor" content="#ffffff" />
-    <meta
-      name="msapplication-TileImage"
-      content="./assets/favicon/ms-icon-144x144.png"
-    />
+    <meta name="msapplication-TileImage" content="./assets/favicon/ms-icon-144x144.png" />
     <meta name="theme-color" content="#ffffff" />
     <!-- Reset CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- Embed Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&display=swap" rel="stylesheet">
     <!-- Styles CSS -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
     <!-- Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- header -->
     <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <img src="./assets/img/Logo.svg" alt="Logo nhà tím" class="logo" />
-          <nav class="navbar">
-            <ul class="navbar__list">
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link navbar__link--active">Home</a>
-              </li>
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link">Products</a>
-              </li>
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link">Features</a>
-              </li>
-              <li class="navbar__item">
-                <a href="#!" class="navbar__link">Blog</a>
-              </li>
-            </ul>
-          </nav>
-          <!-- Action -->
-          <div class="header-action">
-            <a href="#!" class="header-action__link">Log in</a>
-            <a href="#!" class="btn header-action__btn"><span>Sign up</span></a>
-          </div>
+        <div class="container">
+            <div class="header__inner">
+                <img src="./assets/img/Logo.svg" alt="Logo nhà tím" class="logo" />
+                <nav class="navbar">
+                    <ul class="navbar__list">
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link navbar__link--active">Home</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link">Products</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link">Features</a>
+                        </li>
+                        <li class="navbar__item">
+                            <a href="#!" class="navbar__link">Blog</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- Action -->
+                <div class="header-action">
+                    <a href="#!" class="header-action__link">Log in</a>
+                    <a href="#!" class="btn header-action__btn"><span>Sign up</span></a>
+                </div>
+            </div>
         </div>
-      </div>
     </header>
     <!-- Hero -->
     <section class="hero">
-      <div class="container">
-        <div class="hero__inner">
-          <section class="hero__content">
-            <p class="hero__topic topic">Digital Smart Wallet</p>
-            <h1 class="hero__heading">
-              Digital <strong> Payment</strong> For Everyone.
-            </h1>
-            <p class="hero__desc section-desc">
-              We bring together eveything that’s required to build websites and
-              apps that accept payments and send payouts globally. We are the
-              best platform.
-            </p>
-            <form action="" class="hero__subscribe-form">
-              <input
-                type="email"
-                name=""
-                id=""
-                placeholder="Your email address"
-                class="hero__subscribe-form__input"
-              />
-              <button type="submit" class="btn hero__subscribe-form__submit">
+        <div class="container">
+            <div class="hero__inner">
+                <section class="hero__content">
+                    <p class="hero__topic topic">Digital Smart Wallet</p>
+                    <h1 class="hero__heading">
+                        Digital <strong> Payment</strong> For Everyone.
+                    </h1>
+                    <p class="hero__desc section-desc">
+                        We bring together eveything that’s required to build websites and apps that accept payments and send payouts globally. We are the best platform.
+                    </p>
+                    <form action="" class="hero__subscribe-form">
+                        <input type="email" name="" id="" placeholder="Your email address" class="hero__subscribe-form__input" />
+                        <button>
                 Get Started
-              </button>
-            </form>
-            <p class="hero__commit">
-              *We’ll respect the inbox and never share your email.
-            </p>
-          </section>
-          <div class="hero__media">
-            <figure class="hero__media-wrap">
-              <img
-                src="./assets/img/hero-phone.png"
-                alt=""
-                class="hero__media-img"
-              />
-            </figure>
-            <div class="hero-decor">
-              <div class="hero-decor__1">
-                <img
-                  src="./assets/icon/down.svg"
-                  alt=""
-                  class="hero-decor__down"
-                />
-                <p class="hero-decor__deposite">Deposite</p>
-                <p class="hero-decor__total">$32000</p>
-              </div>
-              <div class="hero-decor__2">
-                <p class="hero-decor__percent">0%</p>
-                <p class="hero-decor__interest">Interest</p>
-              </div>
-              <div class="hero-decor__3">
-                <img
-                  src="./assets/icon/sercurity.svg"
-                  alt=""
-                  class="hero-decor__funds"
-                />
-                <div class="hero-decor__wrap-3">
-                  <p class="hero-decor__moneyfunds">$1.310</p>
-                  <p class="hero-decor__securedfunds">SECURED FUNDS</p>
+                <div class="star-1">
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 784.11 815.53"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                        class="fil0"
+                      ></path>
+                    </g>
+                  </svg>
                 </div>
-              </div>
+                <div class="star-2">
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 784.11 815.53"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                        class="fil0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-3">
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 784.11 815.53"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                        class="fil0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-4">
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 784.11 815.53"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                        class="fil0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-5">
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 784.11 815.53"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                        class="fil0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+                <div class="star-6">
+                  <svg
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 784.11 815.53"
+                    style="
+                      shape-rendering: geometricPrecision;
+                      text-rendering: geometricPrecision;
+                      image-rendering: optimizeQuality;
+                      fill-rule: evenodd;
+                      clip-rule: evenodd;
+                    "
+                    version="1.1"
+                    xml:space="preserve"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <defs></defs>
+                    <g id="Layer_x0020_1">
+                      <metadata id="CorelCorpID_0Corel-Layer"></metadata>
+                      <path
+                        d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z"
+                        class="fil0"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </button>
+                    </form>
+                    <p class="hero__commit">
+                        *We’ll respect the inbox and never share your email.
+                    </p>
+                </section>
+                <div class="hero__media">
+                    <figure class="hero__media-wrap">
+                        <img src="./assets/img/hero-phone.png" alt="" class="hero__media-img" />
+                    </figure>
+                    <div class="hero-decor">
+                        <div class="hero-decor__1">
+                            <img src="./assets/icon/down.svg" alt="" class="hero-decor__down" />
+                            <p class="hero-decor__deposite">Deposite</p>
+                            <p class="hero-decor__total">$32000</p>
+                        </div>
+                        <div class="hero-decor__2">
+                            <p class="hero-decor__percent">0%</p>
+                            <p class="hero-decor__interest">Interest</p>
+                        </div>
+                        <div class="hero-decor__3">
+                            <img src="./assets/icon/sercurity.svg" alt="" class="hero-decor__funds" />
+                            <div class="hero-decor__wrap-3">
+                                <p class="hero-decor__moneyfunds">$1.310</p>
+                                <p class="hero-decor__securedfunds">SECURED FUNDS</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </section>
+    <!--Works -->
+    <section class="work">
+        <div class="container">
+            <div class="work__inner">
+                <div class="work__media">
+                    <figure class="work__media-wrap">
+                        <img src="./assets/img/work__media.png" alt="" class="work__media-img" />
+                    </figure>
+                    <img src="./assets/icon/Card.svg" alt="" class="work__decor">
+                    <div class="work__decor-congratulations">
+                        <div class="work__decor-wrap">
+                            <div class="work__decor-check">
+                                <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1 4L4.5 7.5L11 1" stroke="#4AB5E3" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+
+                            </div>
+                        </div>
+                        <div class="work__decor-wraptext">
+                            <p class="work__decor-text">Congratulations</p>
+                            <p class="work__decor-text2">Your account activated</p>
+                        </div>
+                    </div>
+                </div>
+                <section class="work__content">
+                    <p class="topic">Digital Smart Wallet</p>
+                    <h2 class="section-heading work__heading">How It Works</h2>
+                    <div class="work__content-wrap">
+                        <p class="work__tittle">
+                            1. Open a High Interest Checking account
+                        </p>
+                        <p class="work__desc">
+                            Fund your bank account with a minimum balance of $100. Enroll in 3 minutes or less!
+                        </p>
+                        <p class="work__tittle">
+                            2. 10 point-of-sale transactions each Month that are at least $10 each.
+                        </p>
+                        <p class="work__desc">
+                            Be sure to use your rewards checking account as often as possible in order to accue APYI
+                        </p>
+                        <p class="work__tittle">3. Receive up to 5.50% APY</p>
+                        <p class="work__desc">
+                            The APY you earn will be based on your account balance and satisfying the transaction requirement.
+                        </p>
+                    </div>
+
+            </div>
+            </section>
+        </div>
+        </div>
+    </section>
+    <!-- Information -->
+    <section class="info">
+        <div class="container">
+            <div class="info__inner">
+                <div class="info__content">
+                    <p class="topic">Digital Smart Wallet</p>
+                    <h2 class="section-heading info__heading">One Card For All Your Payments</h2>
+                    <p class="section-desc info__desc">We bring together eveything that’s required to build websites and apps that accept payments and send payouts globally. We are the best platform.</p>
+                    <ul class="info__list">
+                        <li class="info__item">Global Payments</li>
+                        <li class="info__item">One-Click Purchase</li>
+                        <li class="info__item">Friendly Price</li>
+                    </ul>
+                    <a href="#!" class="btn info__btn">Get Started</a>
+                </div>
+                <div class="info__media">
+                    <figure class="info__media-wrap"><img src="./assets/img/Card.png" alt="" class="info__img"></figure>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--  services-->
+    <!-- Feedback -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
-  </body>
+</body>
+
 </html>
