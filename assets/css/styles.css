@@ -1350,6 +1350,7 @@ button:hover .star-6 {
   margin-top: 28px;
 }
 .footer__copyright {
+  white-space: nowrap;
   color: #fff;
   font-weight: 300;
   font-size: 1.6rem;
