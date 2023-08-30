@@ -1357,3 +1357,28 @@ button:hover .star-6 {
   font-weight: 300;
   font-size: 1.6rem;
 }
+.down-decor__star {
+  animation: pinner 5s linear infinite;
+}
+@keyframes pinner {
+  from {
+    rotate: 0;
+  }
+  to {
+    rotate: 360deg;
+  }
+}
+.hero-decor__2 {
+  animation: run 2s linear infinite;
+}
+@keyframes run {
+  0% {
+    transform: translateY(10px);
+  }
+  25% {
+    transform: translatey(-90px);
+  }
+  100% {
+    transform: translateY(10px);
+  }
+}
