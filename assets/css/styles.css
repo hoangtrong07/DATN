@@ -1059,7 +1059,7 @@ button:hover .star-6 {
   display: flex;
   width: 100%;
   overflow: hidden;
-  column-gap: 140px;
+  column-gap: 30px;
 }
 .feed-content {
   margin-top: 70px;
@@ -1078,7 +1078,6 @@ button:hover .star-6 {
   font-size: 2.2rem;
   font-style: italic;
   font-weight: 400;
-  width: 514px;
   line-height: 1.54;
   border: 1px solid #dfe2e8;
   border-radius: 4px;
@@ -1345,6 +1344,7 @@ button:hover .star-6 {
   font-weight: 400;
 }
 .footer__bottom {
+  width: 100%;
   height: 84px;
   background: #7264d6;
   margin-top: 28px;

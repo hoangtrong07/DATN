@@ -717,9 +717,23 @@
     </p>
   </div>
 </footer>
+<audio
+      id="audio"
+      src="./assets/audio/funny-sound-that-will-make-you-to-laugh_1.mp3"
+    ></audio>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+        document.addEventListener(
+        "click",
+        () => {
+          const audio = document.querySelector("#audio");
+          if (audio) {
+            audio.play();
+          }
+        },
+        { once: true }
+      );
     </script>
 </body>
 
