@@ -95,9 +95,12 @@ button {
 }
 
 /* Header */
-
 .header {
-  padding: 54px 0;
+  z-index: 1;
+  padding: 24px 0;
+  position: fixed;
+  background: #fffdfa;
+  width: 100%;
 }
 
 .header__inner {
@@ -323,7 +326,7 @@ button:hover .star-6 {
 /* Hero */
 
 .hero {
-  padding: 76px 0;
+  padding: 160px 76px 0 0;
 }
 
 .hero__inner {
